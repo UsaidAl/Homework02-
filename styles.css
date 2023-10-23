@@ -1,10 +1,20 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    color: var(--light);
+  }
+  
+  
+
 .flex-container {
     display: flex;
 }
 
 .flex-item {
     flex: 1;
-    border: 1px solid #333;
+    border: 10px solid #333;
     padding: 10px;
     margin: 5px;
 }
@@ -12,9 +22,13 @@
 .underlined-header {
     text-decoration: underline;
 }
+
+
 .flex-container {
     display: flex;
-    justify-content: space-around; /* Adjust as needed */
-    border: 2px solid #1900ff; /* Neon green border */
+    justify-content: space-around; 
+    border: 10px solid #1900ff; 
     padding: 10px;
-    background-color: #00000000; /* Black background */
+    background-color: rgb(0, 129, 136);
+}
+
