@@ -1,0 +1,20 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 5px;
+}
+
+.underlined-header {
+    text-decoration: underline;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    border: 2px solid #1900ff; /* Neon green border */
+    padding: 10px;
+    background-color: #00000000; /* Black background */
